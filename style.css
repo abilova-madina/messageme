@@ -23,6 +23,7 @@ body {
   padding: 7px 13px;
 }
 #whatsapp .chat .message {
+  overflow: auto;
   border: solid 1px white;
   height: 220px;
   width: 400px;
