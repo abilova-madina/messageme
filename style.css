@@ -7,29 +7,34 @@ body {
   padding-top: 80px;
 }
 #whatsapp .chat {
-  border: 13px solid #e8edff;
+  border: 9px solid #e8edff;
   background-color: #e8edff;
-  width: 470px;
-  height: 320px;
-  border-radius: 30px;
-  margin-left: 30px;
+  width: 460px;
+  height: 340px;
+  border-radius: 20px;
 }
 #whatsapp .chat h3 {
   display: inline-block;
   background: #7991e7;
   color: white;
   border-radius: 40px;
-  margin-top: 30px;
+  margin: 10px;
   padding: 7px 13px;
 }
 #whatsapp .chat .message {
   overflow: auto;
   border: solid 1px white;
-  height: 220px;
-  width: 400px;
+  height: 250px;
+  width: 420px;
   background: white;
   border-radius: 20px;
-  margin-left: 24px;
+  margin: 10px;
+}
+#whatsapp .chat .message .end {
+  text-align: end;
+}
+#whatsapp .chat .message::-webkit-scrollbar {
+  display: none;
 }
 #whatsapp .chat input {
   border-radius: 15px;
@@ -50,4 +55,40 @@ body {
   padding: 6px;
   width: 60px;
   margin: 0 10px;
+}
+@media screen and (max-width: 381px) {
+  #whatsapp .chat {
+    border: 7px solid #e8edff;
+    background-color: #e8edff;
+    width: 360px;
+    height: 290px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+  }
+  #whatsapp .chat .message {
+    overflow: auto;
+    border: solid 1px white;
+    height: 200px;
+    width: 330px;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  #whatsapp .chat .sent h2 {
+    position: relative;
+    left: 270px;
+    bottom: 32px;
+    flex-direction: row;
+    border: 1px solid #94a6e6;
+    background: #94a6e6;
+    color: white;
+    border-radius: 15px;
+    width: 60px;
+    margin: 0 10px;
+  }
+  #whatsapp .chat input {
+    border-radius: 15px;
+    margin: 18px 0 0 85px;
+    padding: 6px 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
