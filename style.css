@@ -58,9 +58,9 @@ body {
 }
 @media screen and (max-width: 381px) {
   #whatsapp .chat {
-    border: 11px solid #e8edff;
+    border: 7px solid #e8edff;
     background-color: #e8edff;
-    width: 340px;
+    width: 280px;
     height: 290px;
     border-radius: 18px;
     margin-bottom: 30px;
@@ -69,14 +69,14 @@ body {
     overflow: auto;
     border: solid 1px white;
     height: 200px;
-    width: 300px;
+    width: 250px;
     background: white;
     border-radius: 20px;
     margin: 10px;
   }
   #whatsapp .chat .sent h2 {
     position: relative;
-    left: 235px;
+    left: 198px;
     bottom: 32px;
     flex-direction: row;
     border: 1px solid #94a6e6;
@@ -88,7 +88,85 @@ body {
   }
   #whatsapp .chat input {
     border-radius: 15px;
-    margin: 18px 0 0 55px;
+    margin: 18px 0 0 15px;
     padding: 6px 15px;
+  }
+}
+@media screen and (max-width: 229px) {
+  #whatsapp .chat {
+    border: 1px solid #e8edff;
+    background-color: #e8edff;
+    width: 200px;
+    height: 260px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+  }
+  #whatsapp .chat .message {
+    overflow: auto;
+    border: solid 1px white;
+    height: 180px;
+    width: 180px;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  #whatsapp .chat .sent h2 {
+    position: relative;
+    left: 12px;
+    bottom: 2px;
+    flex-direction: row;
+    border: 1px solid #94a6e6;
+    background: #94a6e6;
+    color: white;
+    border-radius: 15px;
+    width: 63px;
+    margin: 0 10px;
+  }
+  #whatsapp .chat input {
+    border-radius: 15px;
+    margin: 12px 0 0 15px;
+    padding: 6px 15px;
+    width: 90px;
+  }
+}
+@media screen and (max-width: 770px) {
+  #whatsapp .chat {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 990px) {
+  #whatsapp .chat {
+    border: 3px solid #e8edff;
+    background-color: #e8edff;
+    width: 350px;
+    height: 320px;
+    border-radius: 20px;
+  }
+  #whatsapp .chat .message {
+    overflow: auto;
+    border: solid 1px white;
+    height: 230px;
+    width: 325px;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  #whatsapp .chat .sent h2 {
+    position: relative;
+    left: 12px;
+    bottom: 2px;
+    flex-direction: row;
+    border: 1px solid #94a6e6;
+    background: #94a6e6;
+    color: white;
+    border-radius: 15px;
+    width: 63px;
+    margin: 0 10px;
+  }
+  #whatsapp .chat input {
+    border-radius: 15px;
+    margin: 12px 0 0 15px;
+    padding: 6px 15px;
+    width: 200px;
   }
 }/*# sourceMappingURL=style.css.map */
