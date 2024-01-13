@@ -7,15 +7,14 @@ body {
   padding-top: 80px;
 }
 #whatsapp .chat {
-  border: 9px solid #e8edff;
-  background-color: #e8edff;
+  border: 9px solid #e5b3e9;
   width: 460px;
   height: 340px;
   border-radius: 20px;
 }
 #whatsapp .chat h3 {
   display: inline-block;
-  background: #7991e7;
+  background: #e5b3e9;
   color: white;
   border-radius: 40px;
   margin: 10px;
@@ -46,8 +45,8 @@ body {
 }
 #whatsapp .chat .sent h2 {
   flex-direction: row;
-  border: 1px solid #94a6e6;
-  background: #94a6e6;
+  border: 1px solid #b8c6fe;
+  background: #b8c6fe;
   color: white;
   display: flex;
   justify-content: center;
@@ -80,5 +79,18 @@ body {
     bottom: 10px;
     width: 125px;
     border-radius: 15px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  #whatsapp .chat {
+    border: 19px solid #e5b3e9;
+    width: 510px;
+    height: 390px;
+    margin: 5px 20px 20px 0;
+  }
+  #whatsapp .chat .message {
+    height: 280px;
+    width: 450px;
+    margin: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
