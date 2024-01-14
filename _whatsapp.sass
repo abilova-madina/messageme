@@ -1,14 +1,14 @@
 #whatsapp
     padding-top: 80px
     .chat
-        border: 9px solid #e5b3e9
-        background: 
+        border: 9px solid #b3cae9
+        background: #b3cae9
         width: 460px
         height: 340px
         border-radius: 20px
         h3
             display: inline-block
-            background: #e5b3e9
+            background: #152b82
             color: #ffff
             border-radius: 40px
             margin: 10px
@@ -35,8 +35,8 @@
             display: inline-block
             h2
                 flex-direction: row
-                border: 1px solid #b8c6fe
-                background: #b8c6fe
+                border: 1px solid #152b82
+                background: #152b82
                 color: #ffff
                 display: flex
                 justify-content: center
@@ -70,7 +70,7 @@
 
     @media screen and ( max-width: 1920px  )
         .chat
-            border: 19px solid #e5b3e9
+            border: 19px solid #b3cae9
             width: 510px
             height: 390px
             margin: 5px 20px 20px 0
@@ -78,3 +78,22 @@
                 height: 280px
                 width: 450px
                 margin: 10px
+
+    @media screen and ( max-width: 760px  )
+        .chat
+            width: 345px
+            height: 300px
+            .message
+                height: 200px
+                width: 295px
+                margin: 10px
+            .sent
+                h2
+                    position: relative
+                    left: 210px
+                    bottom: 40px
+                    width: 63px
+                    margin: 0 10px
+            input
+                width: 170px
+                border-radius: 15px
