@@ -5,6 +5,8 @@ body {
 
 #whatsapp {
   padding-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 #whatsapp .chat {
   border: 12px solid #e32a2a;
